@@ -1,17 +1,22 @@
 {
-  "name": "04-clean-ddd",
+  "name": "04-clean-domain",
   "version": "1.0.0",
-  "description": "",
+  "description": "Design dirigido à domínio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.10.6",
-    "typescript": "^5.3.3",
-    "vitest": "^1.1.0"
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4",
+    "vite-tsconfig-paths": "^4.2.0",
+    "vitest": "^0.30.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7"
   }
 }
